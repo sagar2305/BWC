@@ -69,8 +69,8 @@
 
 -(void)loadTutorials {
     // 1
-    NSURL *tutorialsUrl = [NSURL URLWithString:[NSString stringWithFormat:@"%@/forumdisplay.php?f=176", BASE_WEBSITE_URL]];
-//    NSURL *tutorialsUrl = [NSURL URLWithString:[NSString stringWithFormat:@"%@/forumdisplay.php?f=20", BASE_WEBSITE_URL]];
+//    NSURL *tutorialsUrl = [NSURL URLWithString:[NSString stringWithFormat:@"%@/forumdisplay.php?f=176", BASE_WEBSITE_URL]];
+    NSURL *tutorialsUrl = [NSURL URLWithString:[NSString stringWithFormat:@"%@/forumdisplay.php?f=20", BASE_WEBSITE_URL]];
     NSData *tutorialsHtmlData = [NSData dataWithContentsOfURL:tutorialsUrl];
     NSString *html = [[NSString alloc] initWithData:tutorialsHtmlData encoding:NSUTF8StringEncoding];
     
@@ -78,8 +78,8 @@
     TFHpple *tutorialsParser = [TFHpple hppleWithHTMLData:tutorialsHtmlData];
     
     // 3
-//    NSString *tutorialsXpathQueryString = @"//h3[@class='threadtitle']";
-    NSString *tutorialsXpathQueryString = @"//h2[@class='forumtitle']";
+    NSString *tutorialsXpathQueryString = @"//h3[@class='threadtitle']";
+//    NSString *tutorialsXpathQueryString = @"//h2[@class='forumtitle']";
     NSArray *tutorialsNodes = [tutorialsParser searchWithXPathQuery:tutorialsXpathQueryString];
     
     // 4
