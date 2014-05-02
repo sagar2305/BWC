@@ -22,6 +22,13 @@
 		993812E21902006D00D75E73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993812C11902006D00D75E73 /* UIKit.framework */; };
 		993812EA1902006D00D75E73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 993812E81902006D00D75E73 /* InfoPlist.strings */; };
 		993812EC1902006D00D75E73 /* HTMLParseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812EB1902006D00D75E73 /* HTMLParseTests.m */; };
+		993812FA1902013700D75E73 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812F71902013700D75E73 /* TFHpple.m */; };
+		993812FB1902013700D75E73 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812F91902013700D75E73 /* TFHppleElement.m */; };
+		993812FE1902015800D75E73 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812FD1902015800D75E73 /* XPathQuery.m */; };
+		993813001902024F00D75E73 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 993812FF1902024F00D75E73 /* libxml2.2.dylib */; };
+		99381304190206DA00D75E73 /* Tutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 99381303190206DA00D75E73 /* Tutorial.m */; };
+		993813071902071000D75E73 /* Contributor.m in Sources */ = {isa = PBXBuildFile; fileRef = 993813061902071000D75E73 /* Contributor.m */; };
+		993813091902E3AA00D75E73 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 993813081902E3AA00D75E73 /* File */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +63,18 @@
 		993812E71902006D00D75E73 /* HTMLParseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTMLParseTests-Info.plist"; sourceTree = "<group>"; };
 		993812E91902006D00D75E73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		993812EB1902006D00D75E73 /* HTMLParseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLParseTests.m; sourceTree = "<group>"; };
+		993812F61902013700D75E73 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = hpple/TFHpple.h; sourceTree = "<group>"; };
+		993812F71902013700D75E73 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = hpple/TFHpple.m; sourceTree = "<group>"; };
+		993812F81902013700D75E73 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = hpple/TFHppleElement.h; sourceTree = "<group>"; };
+		993812F91902013700D75E73 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = hpple/TFHppleElement.m; sourceTree = "<group>"; };
+		993812FC1902015800D75E73 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = hpple/XPathQuery.h; sourceTree = "<group>"; };
+		993812FD1902015800D75E73 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = hpple/XPathQuery.m; sourceTree = "<group>"; };
+		993812FF1902024F00D75E73 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		99381302190206DA00D75E73 /* Tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial.h; sourceTree = "<group>"; };
+		99381303190206DA00D75E73 /* Tutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutorial.m; sourceTree = "<group>"; };
+		993813051902071000D75E73 /* Contributor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contributor.h; sourceTree = "<group>"; };
+		993813061902071000D75E73 /* Contributor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contributor.m; sourceTree = "<group>"; };
+		993813081902E3AA00D75E73 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993813001902024F00D75E73 /* libxml2.2.dylib in Frameworks */,
 				993812C01902006D00D75E73 /* CoreGraphics.framework in Frameworks */,
 				993812C21902006D00D75E73 /* UIKit.framework in Frameworks */,
 				993812BE1902006D00D75E73 /* Foundation.framework in Frameworks */,
@@ -85,6 +105,9 @@
 		993812B11902006D00D75E73 = {
 			isa = PBXGroup;
 			children = (
+				993813081902E3AA00D75E73 /* File */,
+				99381301190206A200D75E73 /* model */,
+				993812F5190200DE00D75E73 /* hpple */,
 				993812C31902006D00D75E73 /* HTMLParse */,
 				993812E51902006D00D75E73 /* HTMLParseTests */,
 				993812BC1902006D00D75E73 /* Frameworks */,
@@ -104,6 +127,7 @@
 		993812BC1902006D00D75E73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				993812FF1902024F00D75E73 /* libxml2.2.dylib */,
 				993812BD1902006D00D75E73 /* Foundation.framework */,
 				993812BF1902006D00D75E73 /* CoreGraphics.framework */,
 				993812C11902006D00D75E73 /* UIKit.framework */,
@@ -155,6 +179,30 @@
 				993812E81902006D00D75E73 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		993812F5190200DE00D75E73 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				993812FC1902015800D75E73 /* XPathQuery.h */,
+				993812FD1902015800D75E73 /* XPathQuery.m */,
+				993812F61902013700D75E73 /* TFHpple.h */,
+				993812F71902013700D75E73 /* TFHpple.m */,
+				993812F81902013700D75E73 /* TFHppleElement.h */,
+				993812F91902013700D75E73 /* TFHppleElement.m */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
+		99381301190206A200D75E73 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				99381302190206DA00D75E73 /* Tutorial.h */,
+				99381303190206DA00D75E73 /* Tutorial.m */,
+				993813051902071000D75E73 /* Contributor.h */,
+				993813061902071000D75E73 /* Contributor.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993813091902E3AA00D75E73 /* File in Resources */,
 				993812D91902006D00D75E73 /* Images.xcassets in Resources */,
 				993812C81902006D00D75E73 /* InfoPlist.strings in Resources */,
 				993812D11902006D00D75E73 /* Main.storyboard in Resources */,
@@ -255,6 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993812FB1902013700D75E73 /* TFHppleElement.m in Sources */,
+				99381304190206DA00D75E73 /* Tutorial.m in Sources */,
+				993813071902071000D75E73 /* Contributor.m in Sources */,
+				993812FE1902015800D75E73 /* XPathQuery.m in Sources */,
+				993812FA1902013700D75E73 /* TFHpple.m in Sources */,
 				993812D71902006D00D75E73 /* HTMLDetailViewController.m in Sources */,
 				993812CA1902006D00D75E73 /* main.m in Sources */,
 				993812CE1902006D00D75E73 /* HTMLAppDelegate.m in Sources */,
@@ -373,6 +427,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -385,7 +440,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTMLParse/HTMLParse-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "HTMLParse/HTMLParse-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,7 +459,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTMLParse/HTMLParse-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "HTMLParse/HTMLParse-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -463,6 +530,7 @@
 				993812F11902006D00D75E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		993812F21902006D00D75E73 /* Build configuration list for PBXNativeTarget "HTMLParseTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +539,7 @@
 				993812F41902006D00D75E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
