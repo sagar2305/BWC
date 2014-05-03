@@ -86,31 +86,33 @@
     NSMutableArray *newTutorials = [[NSMutableArray alloc] initWithCapacity:0];
     for (TFHppleElement *element in tutorialsNodes) {
         // 5
-        Tutorial *tutorial = [[Tutorial alloc] init];
         BOOL isValid = YES;
         
         // 6
         for (TFHppleElement *child in element.children) {
+            
+            Tutorial *tutorial = [[Tutorial alloc] init];
             // 6
             NSString *title = [[child firstChild] content];
-            if(!title && [title rangeOfString:@"Past Shows" options:NSCaseInsensitiveSearch].location != NSNotFound)
-                isValid = NO;
+//            if(!title && [title rangeOfString:@"Past Shows" options:NSCaseInsensitiveSearch].location != NSNotFound)
+//                isValid = NO;
             tutorial.title = title;
             
             // 7
             NSString *url = [child objectForKey:@"href"];
             
-            if(url && [url rangeOfString:@"http"].location == NSNotFound)
+            if(!url || !title || [url rangeOfString:@"goto=newpost"].location != NSNotFound)
+                continue;
+            
+            if([url rangeOfString:@"http"].location == NSNotFound)
             {
                 url = [NSString stringWithFormat:@"%@%@", BASE_WEBSITE_URL, url];
                 tutorial.url = url;
             }
-            else
-                isValid = NO;
+            
+            if(isValid)
+                [newTutorials addObject:tutorial];
         }
-        
-        if(isValid)
-            [newTutorials addObject:tutorial];
     }
     
     // 8
@@ -451,7 +453,7 @@
 {
     Tutorial *thisTutorial = [_objects objectAtIndex:indexPath.row];
     NSString *url = thisTutorial.url;
-    [self retrieveEpisodes:url];
+    [self retrieveVideoLinks:url];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
