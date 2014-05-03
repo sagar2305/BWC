@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "993812B91902006D00D75E73"
                BuildableName = "HTMLParse.app"
-               BlueprintName = "HTMLParse"
-               ReferencedContainer = "container:HTMLParse.xcodeproj">
+               BlueprintName = "BWC"
+               ReferencedContainer = "container:BWC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "993812DD1902006D00D75E73"
                BuildableName = "HTMLParseTests.xctest"
-               BlueprintName = "HTMLParseTests"
-               ReferencedContainer = "container:HTMLParse.xcodeproj">
+               BlueprintName = "BWCTests"
+               ReferencedContainer = "container:BWC.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "993812B91902006D00D75E73"
             BuildableName = "HTMLParse.app"
-            BlueprintName = "HTMLParse"
-            ReferencedContainer = "container:HTMLParse.xcodeproj">
+            BlueprintName = "BWC"
+            ReferencedContainer = "container:BWC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "993812B91902006D00D75E73"
             BuildableName = "HTMLParse.app"
-            BlueprintName = "HTMLParse"
-            ReferencedContainer = "container:HTMLParse.xcodeproj">
+            BlueprintName = "BWC"
+            ReferencedContainer = "container:BWC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "993812B91902006D00D75E73"
             BuildableName = "HTMLParse.app"
-            BlueprintName = "HTMLParse"
-            ReferencedContainer = "container:HTMLParse.xcodeproj">
+            BlueprintName = "BWC"
+            ReferencedContainer = "container:BWC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

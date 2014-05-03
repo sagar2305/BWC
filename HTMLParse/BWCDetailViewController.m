@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Sagar Mutha. All rights reserved.
 //
 
-#import "HTMLDetailViewController.h"
+#import "BWCDetailViewController.h"
 
-@interface HTMLDetailViewController ()
+@interface BWCDetailViewController ()
 - (void)configureView;
 @end
 
-@implementation HTMLDetailViewController
+@implementation BWCDetailViewController
 
 #pragma mark - Managing the detail item
 

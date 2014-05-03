@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Sagar Mutha. All rights reserved.
 //
 
-#import "HTMLAppDelegate.h"
+#import "BWCAppDelegate.h"
 
-@implementation HTMLAppDelegate
+@implementation BWCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

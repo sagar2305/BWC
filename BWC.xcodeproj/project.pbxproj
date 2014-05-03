@@ -12,16 +12,16 @@
 		993812C21902006D00D75E73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993812C11902006D00D75E73 /* UIKit.framework */; };
 		993812C81902006D00D75E73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 993812C61902006D00D75E73 /* InfoPlist.strings */; };
 		993812CA1902006D00D75E73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812C91902006D00D75E73 /* main.m */; };
-		993812CE1902006D00D75E73 /* HTMLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812CD1902006D00D75E73 /* HTMLAppDelegate.m */; };
+		993812CE1902006D00D75E73 /* BWCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812CD1902006D00D75E73 /* BWCAppDelegate.m */; };
 		993812D11902006D00D75E73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993812CF1902006D00D75E73 /* Main.storyboard */; };
-		993812D41902006D00D75E73 /* HTMLMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812D31902006D00D75E73 /* HTMLMasterViewController.m */; };
-		993812D71902006D00D75E73 /* HTMLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812D61902006D00D75E73 /* HTMLDetailViewController.m */; };
+		993812D41902006D00D75E73 /* BWCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812D31902006D00D75E73 /* BWCMasterViewController.m */; };
+		993812D71902006D00D75E73 /* BWCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812D61902006D00D75E73 /* BWCDetailViewController.m */; };
 		993812D91902006D00D75E73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993812D81902006D00D75E73 /* Images.xcassets */; };
 		993812E01902006D00D75E73 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993812DF1902006D00D75E73 /* XCTest.framework */; };
 		993812E11902006D00D75E73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993812BD1902006D00D75E73 /* Foundation.framework */; };
 		993812E21902006D00D75E73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993812C11902006D00D75E73 /* UIKit.framework */; };
 		993812EA1902006D00D75E73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 993812E81902006D00D75E73 /* InfoPlist.strings */; };
-		993812EC1902006D00D75E73 /* HTMLParseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812EB1902006D00D75E73 /* HTMLParseTests.m */; };
+		993812EC1902006D00D75E73 /* BWCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812EB1902006D00D75E73 /* BWCTests.m */; };
 		993812FA1902013700D75E73 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812F71902013700D75E73 /* TFHpple.m */; };
 		993812FB1902013700D75E73 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812F91902013700D75E73 /* TFHppleElement.m */; };
 		993812FE1902015800D75E73 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 993812FD1902015800D75E73 /* XPathQuery.m */; };
@@ -42,27 +42,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		993812BA1902006D00D75E73 /* HTMLParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTMLParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		993812BA1902006D00D75E73 /* BWC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		993812BD1902006D00D75E73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		993812BF1902006D00D75E73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		993812C11902006D00D75E73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		993812C51902006D00D75E73 /* HTMLParse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTMLParse-Info.plist"; sourceTree = "<group>"; };
+		993812C51902006D00D75E73 /* BWC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BWC-Info.plist"; sourceTree = "<group>"; };
 		993812C71902006D00D75E73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		993812C91902006D00D75E73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		993812CB1902006D00D75E73 /* HTMLParse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTMLParse-Prefix.pch"; sourceTree = "<group>"; };
-		993812CC1902006D00D75E73 /* HTMLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMLAppDelegate.h; sourceTree = "<group>"; };
-		993812CD1902006D00D75E73 /* HTMLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLAppDelegate.m; sourceTree = "<group>"; };
+		993812CB1902006D00D75E73 /* BWC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BWC-Prefix.pch"; sourceTree = "<group>"; };
+		993812CC1902006D00D75E73 /* BWCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWCAppDelegate.h; sourceTree = "<group>"; };
+		993812CD1902006D00D75E73 /* BWCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWCAppDelegate.m; sourceTree = "<group>"; };
 		993812D01902006D00D75E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		993812D21902006D00D75E73 /* HTMLMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMLMasterViewController.h; sourceTree = "<group>"; };
-		993812D31902006D00D75E73 /* HTMLMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLMasterViewController.m; sourceTree = "<group>"; };
-		993812D51902006D00D75E73 /* HTMLDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMLDetailViewController.h; sourceTree = "<group>"; };
-		993812D61902006D00D75E73 /* HTMLDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLDetailViewController.m; sourceTree = "<group>"; };
+		993812D21902006D00D75E73 /* BWCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWCMasterViewController.h; sourceTree = "<group>"; };
+		993812D31902006D00D75E73 /* BWCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWCMasterViewController.m; sourceTree = "<group>"; };
+		993812D51902006D00D75E73 /* BWCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWCDetailViewController.h; sourceTree = "<group>"; };
+		993812D61902006D00D75E73 /* BWCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWCDetailViewController.m; sourceTree = "<group>"; };
 		993812D81902006D00D75E73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		993812DE1902006D00D75E73 /* HTMLParseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMLParseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		993812DE1902006D00D75E73 /* BWCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		993812DF1902006D00D75E73 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		993812E71902006D00D75E73 /* HTMLParseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTMLParseTests-Info.plist"; sourceTree = "<group>"; };
+		993812E71902006D00D75E73 /* BWCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BWCTests-Info.plist"; sourceTree = "<group>"; };
 		993812E91902006D00D75E73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		993812EB1902006D00D75E73 /* HTMLParseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMLParseTests.m; sourceTree = "<group>"; };
+		993812EB1902006D00D75E73 /* BWCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWCTests.m; sourceTree = "<group>"; };
 		993812F61902013700D75E73 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = hpple/TFHpple.h; sourceTree = "<group>"; };
 		993812F71902013700D75E73 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = hpple/TFHpple.m; sourceTree = "<group>"; };
 		993812F81902013700D75E73 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = hpple/TFHppleElement.h; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 				993813081902E3AA00D75E73 /* File */,
 				99381301190206A200D75E73 /* model */,
 				993812F5190200DE00D75E73 /* hpple */,
-				993812C31902006D00D75E73 /* HTMLParse */,
-				993812E51902006D00D75E73 /* HTMLParseTests */,
+				993812C31902006D00D75E73 /* BWC */,
+				993812E51902006D00D75E73 /* BWCTests */,
 				993812BC1902006D00D75E73 /* Frameworks */,
 				993812BB1902006D00D75E73 /* Products */,
 			);
@@ -118,8 +118,8 @@
 		993812BB1902006D00D75E73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				993812BA1902006D00D75E73 /* HTMLParse.app */,
-				993812DE1902006D00D75E73 /* HTMLParseTests.xctest */,
+				993812BA1902006D00D75E73 /* BWC.app */,
+				993812DE1902006D00D75E73 /* BWCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,46 +136,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		993812C31902006D00D75E73 /* HTMLParse */ = {
+		993812C31902006D00D75E73 /* BWC */ = {
 			isa = PBXGroup;
 			children = (
-				993812CC1902006D00D75E73 /* HTMLAppDelegate.h */,
-				993812CD1902006D00D75E73 /* HTMLAppDelegate.m */,
+				993812CC1902006D00D75E73 /* BWCAppDelegate.h */,
+				993812CD1902006D00D75E73 /* BWCAppDelegate.m */,
 				993812CF1902006D00D75E73 /* Main.storyboard */,
-				993812D21902006D00D75E73 /* HTMLMasterViewController.h */,
-				993812D31902006D00D75E73 /* HTMLMasterViewController.m */,
-				993812D51902006D00D75E73 /* HTMLDetailViewController.h */,
-				993812D61902006D00D75E73 /* HTMLDetailViewController.m */,
+				993812D21902006D00D75E73 /* BWCMasterViewController.h */,
+				993812D31902006D00D75E73 /* BWCMasterViewController.m */,
+				993812D51902006D00D75E73 /* BWCDetailViewController.h */,
+				993812D61902006D00D75E73 /* BWCDetailViewController.m */,
 				993812D81902006D00D75E73 /* Images.xcassets */,
 				993812C41902006D00D75E73 /* Supporting Files */,
 			);
+			name = BWC;
 			path = HTMLParse;
 			sourceTree = "<group>";
 		};
 		993812C41902006D00D75E73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				993812C51902006D00D75E73 /* HTMLParse-Info.plist */,
+				993812C51902006D00D75E73 /* BWC-Info.plist */,
 				993812C61902006D00D75E73 /* InfoPlist.strings */,
 				993812C91902006D00D75E73 /* main.m */,
-				993812CB1902006D00D75E73 /* HTMLParse-Prefix.pch */,
+				993812CB1902006D00D75E73 /* BWC-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		993812E51902006D00D75E73 /* HTMLParseTests */ = {
+		993812E51902006D00D75E73 /* BWCTests */ = {
 			isa = PBXGroup;
 			children = (
-				993812EB1902006D00D75E73 /* HTMLParseTests.m */,
+				993812EB1902006D00D75E73 /* BWCTests.m */,
 				993812E61902006D00D75E73 /* Supporting Files */,
 			);
+			name = BWCTests;
 			path = HTMLParseTests;
 			sourceTree = "<group>";
 		};
 		993812E61902006D00D75E73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				993812E71902006D00D75E73 /* HTMLParseTests-Info.plist */,
+				993812E71902006D00D75E73 /* BWCTests-Info.plist */,
 				993812E81902006D00D75E73 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -208,9 +210,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		993812B91902006D00D75E73 /* HTMLParse */ = {
+		993812B91902006D00D75E73 /* BWC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 993812EF1902006D00D75E73 /* Build configuration list for PBXNativeTarget "HTMLParse" */;
+			buildConfigurationList = 993812EF1902006D00D75E73 /* Build configuration list for PBXNativeTarget "BWC" */;
 			buildPhases = (
 				993812B61902006D00D75E73 /* Sources */,
 				993812B71902006D00D75E73 /* Frameworks */,
@@ -220,14 +222,14 @@
 			);
 			dependencies = (
 			);
-			name = HTMLParse;
+			name = BWC;
 			productName = HTMLParse;
-			productReference = 993812BA1902006D00D75E73 /* HTMLParse.app */;
+			productReference = 993812BA1902006D00D75E73 /* BWC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		993812DD1902006D00D75E73 /* HTMLParseTests */ = {
+		993812DD1902006D00D75E73 /* BWCTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 993812F21902006D00D75E73 /* Build configuration list for PBXNativeTarget "HTMLParseTests" */;
+			buildConfigurationList = 993812F21902006D00D75E73 /* Build configuration list for PBXNativeTarget "BWCTests" */;
 			buildPhases = (
 				993812DA1902006D00D75E73 /* Sources */,
 				993812DB1902006D00D75E73 /* Frameworks */,
@@ -238,9 +240,9 @@
 			dependencies = (
 				993812E41902006D00D75E73 /* PBXTargetDependency */,
 			);
-			name = HTMLParseTests;
+			name = BWCTests;
 			productName = HTMLParseTests;
-			productReference = 993812DE1902006D00D75E73 /* HTMLParseTests.xctest */;
+			productReference = 993812DE1902006D00D75E73 /* BWCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -249,7 +251,7 @@
 		993812B21902006D00D75E73 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = HTML;
+				CLASSPREFIX = BWC;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Sagar Mutha";
 				TargetAttributes = {
@@ -258,7 +260,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 993812B51902006D00D75E73 /* Build configuration list for PBXProject "HTMLParse" */;
+			buildConfigurationList = 993812B51902006D00D75E73 /* Build configuration list for PBXProject "BWC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -271,8 +273,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				993812B91902006D00D75E73 /* HTMLParse */,
-				993812DD1902006D00D75E73 /* HTMLParseTests */,
+				993812B91902006D00D75E73 /* BWC */,
+				993812DD1902006D00D75E73 /* BWCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -309,10 +311,10 @@
 				993813071902071000D75E73 /* Contributor.m in Sources */,
 				993812FE1902015800D75E73 /* XPathQuery.m in Sources */,
 				993812FA1902013700D75E73 /* TFHpple.m in Sources */,
-				993812D71902006D00D75E73 /* HTMLDetailViewController.m in Sources */,
+				993812D71902006D00D75E73 /* BWCDetailViewController.m in Sources */,
 				993812CA1902006D00D75E73 /* main.m in Sources */,
-				993812CE1902006D00D75E73 /* HTMLAppDelegate.m in Sources */,
-				993812D41902006D00D75E73 /* HTMLMasterViewController.m in Sources */,
+				993812CE1902006D00D75E73 /* BWCAppDelegate.m in Sources */,
+				993812D41902006D00D75E73 /* BWCMasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				993812EC1902006D00D75E73 /* HTMLParseTests.m in Sources */,
+				993812EC1902006D00D75E73 /* BWCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +331,7 @@
 /* Begin PBXTargetDependency section */
 		993812E41902006D00D75E73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 993812B91902006D00D75E73 /* HTMLParse */;
+			target = 993812B91902006D00D75E73 /* BWC */;
 			targetProxy = 993812E31902006D00D75E73 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -439,15 +441,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HTMLParse/HTMLParse-Prefix.pch";
+				GCC_PREFIX_HEADER = "HTMLParse/BWC-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = "HTMLParse/HTMLParse-Info.plist";
+				INFOPLIST_FILE = "HTMLParse/BWC-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BWC;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -458,15 +460,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HTMLParse/HTMLParse-Prefix.pch";
+				GCC_PREFIX_HEADER = "HTMLParse/BWC-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = "HTMLParse/HTMLParse-Info.plist";
+				INFOPLIST_FILE = "HTMLParse/BWC-Info.plist";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BWC;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -486,8 +488,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "HTMLParseTests/HTMLParseTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "HTMLParseTests/BWCTests-Info.plist";
+				PRODUCT_NAME = BWCTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -504,8 +506,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTMLParse/HTMLParse-Prefix.pch";
-				INFOPLIST_FILE = "HTMLParseTests/HTMLParseTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "HTMLParseTests/BWCTests-Info.plist";
+				PRODUCT_NAME = BWCTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -514,7 +516,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		993812B51902006D00D75E73 /* Build configuration list for PBXProject "HTMLParse" */ = {
+		993812B51902006D00D75E73 /* Build configuration list for PBXProject "BWC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				993812ED1902006D00D75E73 /* Debug */,
@@ -523,7 +525,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		993812EF1902006D00D75E73 /* Build configuration list for PBXNativeTarget "HTMLParse" */ = {
+		993812EF1902006D00D75E73 /* Build configuration list for PBXNativeTarget "BWC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				993812F01902006D00D75E73 /* Debug */,
@@ -532,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		993812F21902006D00D75E73 /* Build configuration list for PBXNativeTarget "HTMLParseTests" */ = {
+		993812F21902006D00D75E73 /* Build configuration list for PBXNativeTarget "BWCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				993812F31902006D00D75E73 /* Debug */,

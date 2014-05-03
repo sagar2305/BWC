@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface HTMLParseTests : XCTestCase
+@interface BWCTests : XCTestCase
 
 @end
 
-@implementation HTMLParseTests
+@implementation BWCTests
 
 - (void)setUp
 {

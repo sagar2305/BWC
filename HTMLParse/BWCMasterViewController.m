@@ -6,22 +6,22 @@
 //  Copyright (c) 2014 Sagar Mutha. All rights reserved.
 //
 
-#import "HTMLMasterViewController.h"
+#import "BWCMasterViewController.h"
 
-#import "HTMLDetailViewController.h"
+#import "BWCDetailViewController.h"
 #import "TFHpple.h"
 #import "Tutorial.h"
 #import "Contributor.h"
 
 #define BASE_WEBSITE_URL @"http://www.desirulez.net/"
 
-@interface HTMLMasterViewController () {
+@interface BWCMasterViewController () {
     NSMutableArray *_objects;
     NSMutableArray *_contributors;
 }
 @end
 
-@implementation HTMLMasterViewController
+@implementation BWCMasterViewController
 
 - (void)awakeFromNib
 {

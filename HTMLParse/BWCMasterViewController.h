@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HTMLMasterViewController : UITableViewController
+@interface BWCMasterViewController : UITableViewController
 
 @end
