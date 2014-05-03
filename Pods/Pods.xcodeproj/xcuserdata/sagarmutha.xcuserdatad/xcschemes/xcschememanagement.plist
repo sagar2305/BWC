@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-HCYoutubeParser.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2ABCF48086B744D29720E657</key>
+		<key>45727ED932FF4FDCACDB5573</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BD1C92A87084496AA37A510F</key>
+		<key>6979AFE327A048399A72784F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF97ECDFCD4148789CD14DEB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

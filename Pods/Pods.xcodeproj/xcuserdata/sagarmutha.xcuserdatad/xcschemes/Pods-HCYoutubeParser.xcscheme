@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6979AFE327A048399A72784F"
-               BuildableName = "libPods-ALMoviePlayerController.a"
-               BlueprintName = "Pods-ALMoviePlayerController"
+               BlueprintIdentifier = "45727ED932FF4FDCACDB5573"
+               BuildableName = "libPods-HCYoutubeParser.a"
+               BlueprintName = "Pods-HCYoutubeParser"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

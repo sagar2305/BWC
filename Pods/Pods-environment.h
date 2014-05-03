@@ -12,3 +12,9 @@
 #define COCOAPODS_VERSION_MINOR_ALMoviePlayerController 3
 #define COCOAPODS_VERSION_PATCH_ALMoviePlayerController 0
 
+// HCYoutubeParser
+#define COCOAPODS_POD_AVAILABLE_HCYoutubeParser
+#define COCOAPODS_VERSION_MAJOR_HCYoutubeParser 0
+#define COCOAPODS_VERSION_MINOR_HCYoutubeParser 0
+#define COCOAPODS_VERSION_PATCH_HCYoutubeParser 2
+

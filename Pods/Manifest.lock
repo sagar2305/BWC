@@ -1,10 +1,13 @@
 PODS:
   - ALMoviePlayerController (0.3.0)
+  - HCYoutubeParser (0.0.2)
 
 DEPENDENCIES:
   - ALMoviePlayerController (~> 0.3.0)
+  - HCYoutubeParser (~> 0)
 
 SPEC CHECKSUMS:
   ALMoviePlayerController: e4a22e60340ffe429711a71e6dfb813fd38f10d2
+  HCYoutubeParser: d52f244ade3a7dfa9dec45695b583d0516158ec8
 
 COCOAPODS: 0.32.1

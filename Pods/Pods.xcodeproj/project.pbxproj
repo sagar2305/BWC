@@ -10,55 +10,83 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>0E6E7C345CC34FF2AB2154D3</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>48A29BDE35EB4FA8899F0487</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>BD1C92A87084496AA37A510F</string>
-			<key>remoteInfo</key>
-			<string>Pods-ALMoviePlayerController</string>
-		</dict>
-		<key>144F9ABC39034FA8BE725F59</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AE5802BD6B8E43DEB8C78222</string>
-				<string>9852D13A090C4AD58915A787</string>
-				<string>4699F29E8C6E45D9831A15FA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>15913ECFDC1049C7B0A0397C</key>
+		<key>01831259E79447778C29E1B6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>movieForward.png</string>
+			<string>movieForwardSelected@2x.png</string>
 			<key>path</key>
-			<string>ALMoviePlayerController/Images/movieForward.png</string>
+			<string>ALMoviePlayerController/Images/movieForwardSelected@2x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1CF6F13E3FE7433DA4AFB1B8</key>
+		<key>04CCB3B121724D42AA66C2E2</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>6979AFE327A048399A72784F</string>
+			<key>targetProxy</key>
+			<string>F50E3C60B4BD48DEA4D9484F</string>
+		</dict>
+		<key>09C5EF6408D54EC9A1642552</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ALMoviePlayerController.m</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/ALMoviePlayerController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1310B62FB5C34CEC92B09092</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AE5802BD6B8E43DEB8C78222</string>
+			<string>1A74AB94FAA047CD92FBDD56</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2191CCD9B4B6476288269E22</key>
+		<key>14EABBD5DFEC4108A12E1255</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ECAD45B8B36543EA92BF951D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>186B4ADD8BDE44E48E1CBEF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ED174F9EADBF4B1E98F25A09</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1A6B962CC7C542EEAD82154B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-ALMoviePlayerController-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1A74AB94FAA047CD92FBDD56</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -67,164 +95,81 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>ALAirplayView.h</string>
+			<string>HCYoutubeParser.h</string>
 			<key>path</key>
-			<string>ALMoviePlayerController/ALAirplayView.h</string>
+			<string>YoutubeParser/Classes/HCYoutubeParser.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>21D8878117644B3486F3AA3F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CAF36435DF954D5B8A5565D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>22556DB5EB9D4406ABBCC01E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3CC32D4574F44541A9304F47</string>
-				<string>B471863F049A4A228289D7F1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>24F260936AB24A509448A7D7</key>
+		<key>1A90E67259414BB8B6D3D89E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C2FB294508264DB1AC2472D8</string>
+			<string>C7F958D3BB3F41F09EEA4EFA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>255195FFEF124FE1AF4DB4E1</key>
+		<key>1D04E7F6932A4E429FBF211D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>AE5802BD6B8E43DEB8C78222</string>
+			<string>24C547F9F53B47A1823D0967</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>1E93FA35F91D4F2A95399F64</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>45727ED932FF4FDCACDB5573</string>
+			<key>targetProxy</key>
+			<string>34C91FE0092D4A71AD35B529</string>
+		</dict>
+		<key>21AEE7161ED6459999702B50</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5E675E03A0D342FE94A31324</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>28A167702ED84E1D93E0A34A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>744E505D1F6A479C86E240A1</string>
-				<string>91CF870AD90B4C79B5B2FCB1</string>
-				<string>4CCF42310E3C44AB87BAC94B</string>
-				<string>72979E50763D424AAC67D4C0</string>
-				<string>F2EC75E1CB404232A9ACEEA9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2ABCF48086B744D29720E657</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>35E286610C7E41EB9CCDC0B5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8F6734747D5B4765A086C899</string>
-				<string>74BE3A2CFBCD476E9259DB11</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>971819AA7CA748C4BFEE9935</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>3CC32D4574F44541A9304F47</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>31BF1E781651459DBF1ABEC9</key>
+		<key>2212A2595F88471F89DB5619</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
+			<string>Pods-ALMoviePlayerController.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>32CA8BDB771A40E6A69593BB</key>
+		<key>22176B356B034FB195A93235</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>movieEndFullscreen@2x.png</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>ALMoviePlayerController/Images/movieEndFullscreen@2x.png</string>
+			<string>Pods-HCYoutubeParser-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>35E286610C7E41EB9CCDC0B5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>78F4DFBEC98242DBA63564CD</string>
-				<string>B75381E7BFA64B64A73E81E6</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>36FA70FE24934F1AAB369C20</key>
+		<key>22792CAAB6154A84B537F162</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B39ED4D41F2B450EA77511CF</string>
+			<string>4D8DE751310740BEB23C3984</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>3BE627C5048141D4BD0545AF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2191CCD9B4B6476288269E22</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CC32D4574F44541A9304F47</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3CFE72BC6A22436DBB64D2BA</key>
+		<key>24C547F9F53B47A1823D0967</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -239,10 +184,309 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>42AA97D5D9AE4C10BE5B4182</key>
+		<key>2662FBD550654A698656710C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>moviePlay@2x.png</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/Images/moviePlay@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>268C137907AC41899C69EFF5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>28A658E03E7C4C1E8E31E403</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B399BE53335347848CB413A9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2B4606F43C83476CB2446113</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C80F0DC0A8D74DC78421D046</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>2FC031EC0B3740AB8056AA5E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4D8DE751310740BEB23C3984</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2FD5070F97D54C92804CECC0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>movieBackward.png</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/Images/movieBackward.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>34C91FE0092D4A71AD35B529</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>EDCE606F94BC4DDEA53B65F8</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>45727ED932FF4FDCACDB5573</string>
+			<key>remoteInfo</key>
+			<string>Pods-HCYoutubeParser</string>
+		</dict>
+		<key>36DBD1E64C5F4AC4AB0CFFFB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>movieForward.png</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/Images/movieForward.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3879D960B88746729455FE2E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>395CCD0204D246D4B2D756B5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3BF38DD5069A41DAA17FF1F5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3A9D2495F30841739D5C3BE7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>movieForward@2x.png</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/Images/movieForward@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3BF38DD5069A41DAA17FF1F5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>QuartzCore.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>3DC9CCEF157845B6BE539A85</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-HCYoutubeParser.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3F338C93120C42B0A044B81E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>428C435A4C404E289DE6E0F1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2FD5070F97D54C92804CECC0</string>
+				<string>75364BD7E98A46428A205C30</string>
+				<string>DEC261BADB8A4402AFE9E5A4</string>
+				<string>6F492962C8E948EC9FE27820</string>
+				<string>9BBF711496CD4E1C894CA911</string>
+				<string>E08F713349394F108268946E</string>
+				<string>36DBD1E64C5F4AC4AB0CFFFB</string>
+				<string>3A9D2495F30841739D5C3BE7</string>
+				<string>4A978D627DD84BE99DD84637</string>
+				<string>01831259E79447778C29E1B6</string>
+				<string>4AF9D4293ED94E7B807EC081</string>
+				<string>F3E00E2641924B58B4E57503</string>
+				<string>7CEBC3356D1D42EDA0A4F03A</string>
+				<string>B2F5945C63AA411491B89DBE</string>
+				<string>E2E0B9D5EB1948CB834A3B48</string>
+				<string>2662FBD550654A698656710C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>438496912E47406D864B16DE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-HCYoutubeParser-Private.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>45727ED932FF4FDCACDB5573</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>F36731608C6B4B4DBD524248</string>
+			<key>buildPhases</key>
+			<array>
+				<string>FA3F8B5455D24B06B26C73B4</string>
+				<string>590C89E972AB4D21B7AD1680</string>
+				<string>8C4D6ED0BD5E4655BBF27517</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-HCYoutubeParser</string>
+			<key>productName</key>
+			<string>Pods-HCYoutubeParser</string>
+			<key>productReference</key>
+			<string>E8E85BCAFF1442F18988C807</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>4608DBDF9B3649D0B220C73B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2212A2595F88471F89DB5619</string>
+				<string>1A6B962CC7C542EEAD82154B</string>
+				<string>F26F49E0A9AE44A38F5C88E9</string>
+				<string>CBBCF463F1BC41628465C6AF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>473AF0202CE54ED9AAD3FF12</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>ABF0DCBD89B1460AA155A3F5</string>
+			<string>3F338C93120C42B0A044B81E</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>4A3DFDCF19E04D2AAE8EB67E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>438496912E47406D864B16DE</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -260,7 +504,7 @@
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-ALMoviePlayerController-prefix.pch</string>
+				<string>Pods-HCYoutubeParser-prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
@@ -290,20 +534,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>4413FB040D3A467795CF237B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>moviePlay@2x.png</string>
-			<key>path</key>
-			<string>ALMoviePlayerController/Images/moviePlay@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>44B00D1040C2484ABDF64968</key>
+		<key>4A978D627DD84BE99DD84637</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -316,206 +547,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4699F29E8C6E45D9831A15FA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>QuartzCore.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>48A29BDE35EB4FA8899F0487</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>F08CEE5CF5F54F9C8E8CCD70</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>F8157D72834C40EB98A64176</string>
-			<key>productRefGroup</key>
-			<string>22556DB5EB9D4406ABBCC01E</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>2ABCF48086B744D29720E657</string>
-				<string>BD1C92A87084496AA37A510F</string>
-			</array>
-		</dict>
-		<key>48C2A916D8D24ADEAB63F988</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>491A7995C65D46819B17BAC1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9852D13A090C4AD58915A787</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CCF42310E3C44AB87BAC94B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>87D588DF7C034AE4A44CDA7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>51729F15A26548FE998628B7</key>
+		<key>4AF9D4293ED94E7B807EC081</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>movieForwardSelected@2x.png</string>
+			<string>movieFullscreen.png</string>
 			<key>path</key>
-			<string>ALMoviePlayerController/Images/movieForwardSelected@2x.png</string>
+			<string>ALMoviePlayerController/Images/movieFullscreen.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>65515D7F310C450EB87CBE29</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BEFF512962BA461D9A0623C6</string>
-				<string>6617C53A26A940538FFE0779</string>
-				<string>BEF4D077819D48AFAB5686EC</string>
-				<string>79C41C6EEE61426B84FDE1BA</string>
-				<string>A426E562EA924892AF2073D2</string>
-				<string>32CA8BDB771A40E6A69593BB</string>
-				<string>15913ECFDC1049C7B0A0397C</string>
-				<string>D85843848212411DA1CE5E40</string>
-				<string>44B00D1040C2484ABDF64968</string>
-				<string>51729F15A26548FE998628B7</string>
-				<string>C22ED80BBFEA4EA7A0364802</string>
-				<string>EC58FC5B190B4B8B871DF812</string>
-				<string>BDA26AC41C554CF387A40BC9</string>
-				<string>DFE3CDD50E56419AB913414E</string>
-				<string>AFF334FCD0F44CD3ADB22C8C</string>
-				<string>4413FB040D3A467795CF237B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6617C53A26A940538FFE0779</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>movieBackward@2x.png</string>
-			<key>path</key>
-			<string>ALMoviePlayerController/Images/movieBackward@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C98682656384644B6D811DB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E7379AC17E1E4F3AA00EECA4</string>
-				<string>31BF1E781651459DBF1ABEC9</string>
-				<string>A524523B71E24AC7922D74CD</string>
-				<string>834772F79F6847C09CBA0B63</string>
-				<string>A1D25ACB06CE43AA88A3C184</string>
-				<string>70EC0C0383F0423EB0551B0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>70EC0C0383F0423EB0551B0E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72979E50763D424AAC67D4C0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E16F92245F934EBD871992DF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>739D20ED166B47EEA27C461B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>745C83BAB6D149A39B138A8C</string>
-				<string>ABF0DCBD89B1460AA155A3F5</string>
-				<string>73D6656049EA4D3CAC7A2F9B</string>
-				<string>D71CA7E7215B467FB947D0A2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>73D6656049EA4D3CAC7A2F9B</key>
+		<key>4C97D543FBC84BC5BFD214A0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -523,120 +568,115 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>HCYoutubeParser.m</string>
 			<key>path</key>
-			<string>Pods-ALMoviePlayerController-dummy.m</string>
+			<string>YoutubeParser/Classes/HCYoutubeParser.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>744E505D1F6A479C86E240A1</key>
+		<key>4D8DE751310740BEB23C3984</key>
 		<dict>
-			<key>fileRef</key>
-			<string>A504591216464F30A8A78371</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>745C83BAB6D149A39B138A8C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
 			<key>path</key>
-			<string>Pods-ALMoviePlayerController.xcconfig</string>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>4FC863513B8C4E8DA260BCC5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>773892E6C5494CF0B9AC765D</string>
+				<string>ECAD45B8B36543EA92BF951D</string>
+				<string>B399BE53335347848CB413A9</string>
+				<string>24C547F9F53B47A1823D0967</string>
+				<string>ED174F9EADBF4B1E98F25A09</string>
+				<string>09C5EF6408D54EC9A1642552</string>
+				<string>5A354268B514411DA5B4A70D</string>
+				<string>C80F0DC0A8D74DC78421D046</string>
+				<string>428C435A4C404E289DE6E0F1</string>
+				<string>4608DBDF9B3649D0B220C73B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ALMoviePlayerController</string>
+			<key>path</key>
+			<string>ALMoviePlayerController</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>74BE3A2CFBCD476E9259DB11</key>
+		<key>51B7E9A1B6934E13864984E0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B1B19C1501BB41CE8371BE7D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>57D877913CF24998AE559AA5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3879D960B88746729455FE2E</string>
+				<string>C26FC20939C240CF885327DC</string>
+				<string>F5B3FA2E563346C6B8B69A63</string>
+				<string>79CDF6BF82274FEB9AFBDE9A</string>
+				<string>D7A1751B37DF49CE9DF606C7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>590C89E972AB4D21B7AD1680</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>1CF6F13E3FE7433DA4AFB1B8</string>
-				<string>8159B8761902430DB718EDCC</string>
+				<string>2FC031EC0B3740AB8056AA5E</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>78F4DFBEC98242DBA63564CD</key>
+		<key>59D4AA8144F54BB5A7CB8214</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E7379AC17E1E4F3AA00EECA4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>F0F1D76C614E4848BFC10D9B</string>
+				<string>473AF0202CE54ED9AAD3FF12</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>79C41C6EEE61426B84FDE1BA</key>
+		<key>5A354268B514411DA5B4A70D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>movieBackwardSelected@2x.png</string>
+			<string>ALMoviePlayerControls.h</string>
 			<key>path</key>
-			<string>ALMoviePlayerController/Images/movieBackwardSelected@2x.png</string>
+			<string>ALMoviePlayerController/ALMoviePlayerControls.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8159B8761902430DB718EDCC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B471863F049A4A228289D7F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>834772F79F6847C09CBA0B63</key>
+		<key>5E675E03A0D342FE94A31324</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -649,35 +689,368 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>87D588DF7C034AE4A44CDA7B</key>
+		<key>60004EA9C32B4E4FB15A8863</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3DC9CCEF157845B6BE539A85</string>
+				<string>438496912E47406D864B16DE</string>
+				<string>22176B356B034FB195A93235</string>
+				<string>6F8387DC0A6C4A1F93B686EC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>606C4AC0BF6B40E895CC40F0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E8E85BCAFF1442F18988C807</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>62356847F5B2458296268E54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>09C5EF6408D54EC9A1642552</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>658B56900E1744C78A12EBE0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>22792CAAB6154A84B537F162</string>
+				<string>1A90E67259414BB8B6D3D89E</string>
+				<string>606C4AC0BF6B40E895CC40F0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6979AFE327A048399A72784F</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>B069B5BDCF9844DCBBC931AF</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8B59F640F5AA427A966901B3</string>
+				<string>922AB57E9972425EAE9D8503</string>
+				<string>DA3FFACEBC6C467582178BBD</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-ALMoviePlayerController</string>
+			<key>productName</key>
+			<string>Pods-ALMoviePlayerController</string>
+			<key>productReference</key>
+			<string>C7F958D3BB3F41F09EEA4EFA</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>6F492962C8E948EC9FE27820</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>movieBackwardSelected@2x.png</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/Images/movieBackwardSelected@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6F8387DC0A6C4A1F93B686EC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ALMoviePlayerController.m</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>ALMoviePlayerController/ALMoviePlayerController.m</string>
+			<string>Pods-HCYoutubeParser-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>886406C4484A4E8EACB94E14</key>
+		<key>70224A004F1A47F187F14770</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>1A6B962CC7C542EEAD82154B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-ALMoviePlayerController-prefix.pch</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>75364BD7E98A46428A205C30</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>movieBackward@2x.png</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/Images/movieBackward@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>773892E6C5494CF0B9AC765D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>ALAirplayView.h</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/ALAirplayView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>79CDF6BF82274FEB9AFBDE9A</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>6C98682656384644B6D811DB</string>
+				<string>BF934610B8E74386B1A91D32</string>
+				<string>C7F958D3BB3F41F09EEA4EFA</string>
+				<string>E8E85BCAFF1442F18988C807</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Targets Support Files</string>
+			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8B0A9CDD1BE94E618111093B</key>
+		<key>7CEBC3356D1D42EDA0A4F03A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>moviePause.png</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/Images/moviePause.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7E3D2CB9CC8D43D58D838F43</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4D8DE751310740BEB23C3984</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>82FD6A80ECC34DB5A9BE1E5E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>B1402BD2A1104A7293B193EC</string>
+				<string>B6DD363D56224212835FC0D5</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>8B59F640F5AA427A966901B3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>14EABBD5DFEC4108A12E1255</string>
+				<string>1D04E7F6932A4E429FBF211D</string>
+				<string>62356847F5B2458296268E54</string>
+				<string>2B4606F43C83476CB2446113</string>
+				<string>D4963B396DC642A1B640AB83</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8C4D6ED0BD5E4655BBF27517</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1310B62FB5C34CEC92B09092</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>922AB57E9972425EAE9D8503</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7E3D2CB9CC8D43D58D838F43</string>
+				<string>51B7E9A1B6934E13864984E0</string>
+				<string>395CCD0204D246D4B2D756B5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9A348AFAC83644329181741F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>22176B356B034FB195A93235</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9BBF711496CD4E1C894CA911</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>movieEndFullscreen.png</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/Images/movieEndFullscreen.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A26E942BC59B470BB05538EB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4C97D543FBC84BC5BFD214A0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
+			</dict>
+		</dict>
+		<key>AA806A9F487C402D96EF2C57</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AF97ECDFCD4148789CD14DEB</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>59D4AA8144F54BB5A7CB8214</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C74721DD22E54513916BAE60</string>
+				<string>658B56900E1744C78A12EBE0</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>04CCB3B121724D42AA66C2E2</string>
+				<string>1E93FA35F91D4F2A95399F64</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>BF934610B8E74386B1A91D32</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>B069B5BDCF9844DCBBC931AF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C0657FF014C54D9B808D1372</string>
+				<string>70224A004F1A47F187F14770</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B1402BD2A1104A7293B193EC</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -744,122 +1117,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>8D7D6229D1A443B49CB4B5E7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>144F9ABC39034FA8BE725F59</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8F6734747D5B4765A086C899</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DF41B2F9C1714E119C7ACDB4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9065929AFE654DFE80EE536B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>ABF0DCBD89B1460AA155A3F5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-ALMoviePlayerController-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>91CF870AD90B4C79B5B2FCB1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3CFE72BC6A22436DBB64D2BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>96D2DD4099244D3884CB0680</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3BE627C5048141D4BD0545AF</string>
-				<string>24F260936AB24A509448A7D7</string>
-				<string>C3B49DBB0AB34FC5B25ECB90</string>
-				<string>36FA70FE24934F1AAB369C20</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>971819AA7CA748C4BFEE9935</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>BD1C92A87084496AA37A510F</string>
-			<key>targetProxy</key>
-			<string>0E6E7C345CC34FF2AB2154D3</string>
-		</dict>
-		<key>9852D13A090C4AD58915A787</key>
+		<key>B1B19C1501BB41CE8371BE7D</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -872,262 +1130,20 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>A1D25ACB06CE43AA88A3C184</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A426E562EA924892AF2073D2</key>
+		<key>B2F5945C63AA411491B89DBE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>movieEndFullscreen.png</string>
+			<string>moviePause@2x.png</string>
 			<key>path</key>
-			<string>ALMoviePlayerController/Images/movieEndFullscreen.png</string>
+			<string>ALMoviePlayerController/Images/moviePause@2x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A504591216464F30A8A78371</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ALAirplayView.m</string>
-			<key>path</key>
-			<string>ALMoviePlayerController/ALAirplayView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A524523B71E24AC7922D74CD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A9E8E91AC45E492FBF92DF62</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4699F29E8C6E45D9831A15FA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABF0DCBD89B1460AA155A3F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ALMoviePlayerController-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE5802BD6B8E43DEB8C78222</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>AFF334FCD0F44CD3ADB22C8C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>moviePlay.png</string>
-			<key>path</key>
-			<string>ALMoviePlayerController/Images/moviePlay.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B39ED4D41F2B450EA77511CF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ALMoviePlayerControls.h</string>
-			<key>path</key>
-			<string>ALMoviePlayerController/ALMoviePlayerControls.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B471863F049A4A228289D7F1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ALMoviePlayerController.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B75381E7BFA64B64A73E81E6</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E7379AC17E1E4F3AA00EECA4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BD1C92A87084496AA37A510F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>FD5F3CF93A564C63BA2568C3</string>
-			<key>buildPhases</key>
-			<array>
-				<string>28A167702ED84E1D93E0A34A</string>
-				<string>FFA9A18F2FD440E088675D9B</string>
-				<string>96D2DD4099244D3884CB0680</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ALMoviePlayerController</string>
-			<key>productName</key>
-			<string>Pods-ALMoviePlayerController</string>
-			<key>productReference</key>
-			<string>B471863F049A4A228289D7F1</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>BDA26AC41C554CF387A40BC9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>moviePause.png</string>
-			<key>path</key>
-			<string>ALMoviePlayerController/Images/moviePause.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BEF4D077819D48AFAB5686EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>movieBackwardSelected.png</string>
-			<key>path</key>
-			<string>ALMoviePlayerController/Images/movieBackwardSelected.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BEFF512962BA461D9A0623C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>movieBackward.png</string>
-			<key>path</key>
-			<string>ALMoviePlayerController/Images/movieBackward.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C22ED80BBFEA4EA7A0364802</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>movieFullscreen.png</string>
-			<key>path</key>
-			<string>ALMoviePlayerController/Images/movieFullscreen.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2FB294508264DB1AC2472D8</key>
+		<key>B399BE53335347848CB413A9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1142,64 +1158,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C3B49DBB0AB34FC5B25ECB90</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2AAB0EAA6724B13BCA44B14</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CAF36435DF954D5B8A5565D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2191CCD9B4B6476288269E22</string>
-				<string>A504591216464F30A8A78371</string>
-				<string>C2FB294508264DB1AC2472D8</string>
-				<string>3CFE72BC6A22436DBB64D2BA</string>
-				<string>F2AAB0EAA6724B13BCA44B14</string>
-				<string>87D588DF7C034AE4A44CDA7B</string>
-				<string>B39ED4D41F2B450EA77511CF</string>
-				<string>E16F92245F934EBD871992DF</string>
-				<string>65515D7F310C450EB87CBE29</string>
-				<string>739D20ED166B47EEA27C461B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ALMoviePlayerController</string>
-			<key>path</key>
-			<string>ALMoviePlayerController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D71CA7E7215B467FB947D0A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ALMoviePlayerController-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D85843848212411DA1CE5E40</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>movieForward@2x.png</string>
-			<key>path</key>
-			<string>ALMoviePlayerController/Images/movieForward@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8C9C32401884734B294DEAD</key>
+		<key>B6DD363D56224212835FC0D5</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -1257,27 +1216,138 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>DF41B2F9C1714E119C7ACDB4</key>
+		<key>B84E55B8005E43D49D28EF06</key>
 		<dict>
-			<key>fileRef</key>
-			<string>834772F79F6847C09CBA0B63</string>
+			<key>children</key>
+			<array>
+				<string>4D8DE751310740BEB23C3984</string>
+				<string>B1B19C1501BB41CE8371BE7D</string>
+				<string>3BF38DD5069A41DAA17FF1F5</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DFE3CDD50E56419AB913414E</key>
+		<key>BF934610B8E74386B1A91D32</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C0657FF014C54D9B808D1372</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>1A6B962CC7C542EEAD82154B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-ALMoviePlayerController-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>C26FC20939C240CF885327DC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B84E55B8005E43D49D28EF06</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C5654496063F41889ECE21AD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>moviePause@2x.png</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
 			<key>path</key>
-			<string>ALMoviePlayerController/Images/moviePause@2x.png</string>
+			<string>Pods-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E16F92245F934EBD871992DF</key>
+		<key>C74721DD22E54513916BAE60</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>21AEE7161ED6459999702B50</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C7F958D3BB3F41F09EEA4EFA</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-ALMoviePlayerController.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C80F0DC0A8D74DC78421D046</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1292,47 +1362,200 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E7379AC17E1E4F3AA00EECA4</key>
+		<key>CBBCF463F1BC41628465C6AF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods.xcconfig</string>
+			<string>Pods-ALMoviePlayerController-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EC58FC5B190B4B8B871DF812</key>
+		<key>D30276C74E2645DFA6FF2AAE</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>438496912E47406D864B16DE</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Pods-HCYoutubeParser-prefix.pch</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>D443D84334404868AED64336</key>
+		<dict>
+			<key>fileRef</key>
+			<string>773892E6C5494CF0B9AC765D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D4963B396DC642A1B640AB83</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F26F49E0A9AE44A38F5C88E9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D7A1751B37DF49CE9DF606C7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E7C336D767F2409987298B24</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DA3FFACEBC6C467582178BBD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D443D84334404868AED64336</string>
+				<string>28A658E03E7C4C1E8E31E403</string>
+				<string>186B4ADD8BDE44E48E1CBEF8</string>
+				<string>F0441E506A2644DEB530E432</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DEC261BADB8A4402AFE9E5A4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>movieFullscreen@2x.png</string>
+			<string>movieBackwardSelected.png</string>
 			<key>path</key>
-			<string>ALMoviePlayerController/Images/movieFullscreen@2x.png</string>
+			<string>ALMoviePlayerController/Images/movieBackwardSelected.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F08CEE5CF5F54F9C8E8CCD70</key>
+		<key>E08F713349394F108268946E</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8B0A9CDD1BE94E618111093B</string>
-				<string>D8C9C32401884734B294DEAD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>movieEndFullscreen@2x.png</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/Images/movieEndFullscreen@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F2AAB0EAA6724B13BCA44B14</key>
+		<key>E2E0B9D5EB1948CB834A3B48</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>moviePlay.png</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/Images/moviePlay.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E7C336D767F2409987298B24</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3F338C93120C42B0A044B81E</string>
+				<string>AA806A9F487C402D96EF2C57</string>
+				<string>F20D34BE20CD40669F3B6774</string>
+				<string>5E675E03A0D342FE94A31324</string>
+				<string>268C137907AC41899C69EFF5</string>
+				<string>C5654496063F41889ECE21AD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E8E85BCAFF1442F18988C807</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-HCYoutubeParser.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>ECAD45B8B36543EA92BF951D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>ALAirplayView.m</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/ALAirplayView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ED174F9EADBF4B1E98F25A09</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1347,34 +1570,132 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F2EC75E1CB404232A9ACEEA9</key>
+		<key>EDCE606F94BC4DDEA53B65F8</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>82FD6A80ECC34DB5A9BE1E5E</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>57D877913CF24998AE559AA5</string>
+			<key>productRefGroup</key>
+			<string>79CDF6BF82274FEB9AFBDE9A</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>AF97ECDFCD4148789CD14DEB</string>
+				<string>6979AFE327A048399A72784F</string>
+				<string>45727ED932FF4FDCACDB5573</string>
+			</array>
+		</dict>
+		<key>F0441E506A2644DEB530E432</key>
 		<dict>
 			<key>fileRef</key>
-			<string>73D6656049EA4D3CAC7A2F9B</string>
+			<string>5A354268B514411DA5B4A70D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>F8157D72834C40EB98A64176</key>
+		<key>F0F1D76C614E4848BFC10D9B</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>48C2A916D8D24ADEAB63F988</string>
-				<string>8D7D6229D1A443B49CB4B5E7</string>
-				<string>21D8878117644B3486F3AA3F</string>
-				<string>22556DB5EB9D4406ABBCC01E</string>
-				<string>886406C4484A4E8EACB94E14</string>
-			</array>
+			<key>baseConfigurationReference</key>
+			<string>3F338C93120C42B0A044B81E</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>F20D34BE20CD40669F3B6774</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FD5F3CF93A564C63BA2568C3</key>
+		<key>F26F49E0A9AE44A38F5C88E9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-ALMoviePlayerController-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F36731608C6B4B4DBD524248</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>42AA97D5D9AE4C10BE5B4182</string>
-				<string>9065929AFE654DFE80EE536B</string>
+				<string>4A3DFDCF19E04D2AAE8EB67E</string>
+				<string>D30276C74E2645DFA6FF2AAE</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -1383,23 +1704,79 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>FFA9A18F2FD440E088675D9B</key>
+		<key>F3E00E2641924B58B4E57503</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>movieFullscreen@2x.png</string>
+			<key>path</key>
+			<string>ALMoviePlayerController/Images/movieFullscreen@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F50E3C60B4BD48DEA4D9484F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>EDCE606F94BC4DDEA53B65F8</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>6979AFE327A048399A72784F</string>
+			<key>remoteInfo</key>
+			<string>Pods-ALMoviePlayerController</string>
+		</dict>
+		<key>F5B3FA2E563346C6B8B69A63</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4FC863513B8C4E8DA260BCC5</string>
+				<string>FE3E4D87CC24448D97159B97</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FA3F8B5455D24B06B26C73B4</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>255195FFEF124FE1AF4DB4E1</string>
-				<string>491A7995C65D46819B17BAC1</string>
-				<string>A9E8E91AC45E492FBF92DF62</string>
+				<string>A26E942BC59B470BB05538EB</string>
+				<string>9A348AFAC83644329181741F</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
+			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
+		<key>FE3E4D87CC24448D97159B97</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1A74AB94FAA047CD92FBDD56</string>
+				<string>4C97D543FBC84BC5BFD214A0</string>
+				<string>60004EA9C32B4E4FB15A8863</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>HCYoutubeParser</string>
+			<key>path</key>
+			<string>HCYoutubeParser</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>48A29BDE35EB4FA8899F0487</string>
+	<string>EDCE606F94BC4DDEA53B65F8</string>
 </dict>
 </plist>
